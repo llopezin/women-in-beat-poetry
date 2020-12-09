@@ -1,0 +1,28 @@
+.main-nav {
+  width: 100%;
+  background-color: $contrast;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin: auto;
+  max-width: 1024px;
+  height: 40px;
+}
+
+.main-nav__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav__list-link {
+  display: block;
+  color: $secondary;
+}
+
+.main-nav__list-link--active::after {
+  width: 100%;
+}

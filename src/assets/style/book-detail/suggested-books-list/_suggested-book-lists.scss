@@ -1,0 +1,39 @@
+.suggested-books-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media (min-width: 579px) and (max-width: $medium) {
+  .suggested-book--last {
+    display: none;
+  }
+}
+
+.suggested-book {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.suggested-book__content {
+  max-width: 130px;
+}
+
+@media screen and (max-width: $medium) {
+  .suggested-book {
+    padding: 20px;
+  }
+}
+
+.suggested-book__cover {
+  min-height: 200px;
+  max-width: 130px;
+  margin: auto;
+}
+
+.suggested-book__title {
+  max-width: 15ch;
+}

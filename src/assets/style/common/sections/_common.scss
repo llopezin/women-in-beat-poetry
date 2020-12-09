@@ -1,0 +1,20 @@
+.section__content {
+  max-width: 1024px;
+  margin: auto;
+}
+
+section {
+  padding: 20px 35px 40px;
+}
+
+.section--primary {
+  background-color: $primary;
+}
+
+.section--secondary {
+  background-color: $secondary;
+}
+
+.section--contrast {
+  background-color: $contrast;
+}

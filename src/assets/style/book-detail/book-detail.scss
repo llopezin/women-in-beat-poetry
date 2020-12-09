@@ -1,0 +1,44 @@
+.book-detail-section {
+  min-height: 55vh;
+}
+
+.book {
+  margin-top: 30px;
+  grid-template-columns: 300px auto;
+}
+
+@media screen and (max-width: $medium) {
+  .book {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.book__heading {
+  color: $contrast;
+  font-size: $sub-heading-font-size;
+}
+
+.book__author {
+  margin-bottom: 20px;
+  padding-top: 0;
+}
+
+.book__cover {
+  width: 200px;
+}
+
+@media screen and (max-width: $medium) {
+  .book__cover {
+    margin: auto;
+  }
+}
+
+.book__info-item {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.book__actions {
+  margin-top: 30px;
+}

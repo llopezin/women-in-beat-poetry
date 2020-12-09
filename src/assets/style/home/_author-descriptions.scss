@@ -1,0 +1,28 @@
+.author-description__wrap {
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.author-description__heading {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.author-description__portrait {
+  justify-self: center;
+  max-width: 275px;
+  border: solid 3px $secondary;
+  border-radius: 200px;
+  box-shadow: 2px 2px 6px 4px $text-color;
+}
+
+.author-description__link {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.author-description__secondary-img {
+  width: 100%;
+  margin-bottom: 20px;
+}

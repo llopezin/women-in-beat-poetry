@@ -1,0 +1,4 @@
+node_modules/
+dist/
+%NODIST_PREFIX%/
+.cache/

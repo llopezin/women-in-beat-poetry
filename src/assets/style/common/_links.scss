@@ -1,0 +1,38 @@
+a {
+  position: relative;
+  cursor: pointer;
+}
+
+a::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  content: " ";
+  transition: width 0.2s;
+}
+
+a:hover::after {
+  width: 100%;
+  transition: width 0.2s;
+}
+
+.link--contrast,
+.link--contrast:visited {
+  color: $contrast;
+  font-weight: bold;
+}
+
+.link--primary {
+  color: $secondary;
+}
+
+.link--primary:visited {
+  color: $secondary;
+}
+
+.link--contrast::after,
+.link--primary::after {
+  background-color: $highlight;
+}

@@ -1,0 +1,10 @@
+.expandable-content--horizontal {
+  max-height: 0;
+  transition: max-height 1s ease-out;
+  overflow: hidden;
+}
+
+.expandable-content--horizontal.show {
+  max-height: 1500px;
+  transition: max-height 1s ease-out;
+}

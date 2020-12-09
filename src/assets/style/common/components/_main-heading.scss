@@ -1,0 +1,12 @@
+.main-heading {
+  @include main-heading;
+  display: block;
+  padding: 15px;
+  background-color: $secondary;
+}
+
+@media screen and (max-width: $medium) {
+  .main-nav__home-link {
+    display: none;
+  }
+}

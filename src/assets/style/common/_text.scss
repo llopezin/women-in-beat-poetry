@@ -1,0 +1,29 @@
+h1 {
+  @include main-heading;
+}
+
+h2,
+h3 {
+  @include sub-heading;
+}
+
+a,
+p,
+li,
+q {
+  @include text;
+}
+
+q {
+  font-style: italic;
+}
+
+.section--contrast p,
+.section--contrast h2,
+.section--contrast h3 {
+  color: $secondary;
+}
+
+.text--strong {
+  font-weight: bold;
+}
