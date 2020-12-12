@@ -26,6 +26,7 @@
 
 .book__cover {
   width: 200px;
+  box-shadow: 2px 2px 6px 4px lightgrey;
 }
 
 @media screen and (max-width: $medium) {

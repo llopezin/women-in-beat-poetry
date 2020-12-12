@@ -10,10 +10,18 @@ export default function addCollapsableContentEvents() {
   });
 }
 
-function toggleContent(elem) {
+function toggleContent(trigger) {
   let contentToToggle = document.querySelector(
-    `[data-expandable=${elem.dataset.trigger}]`
+    `[data-expandable=${trigger.dataset.trigger}]`
   );
 
   contentToToggle.classList.toggle("show");
+
+  trigger.ariaExpanded === "true"
+    ? (trigger.ariaExpanded = "false")
+    : (trigger.ariaExpanded = "true");
+
+  contentToToggle.tabIndex === "-1"
+    ? (contentToToggle.tabIndex = "0")
+    : (contentToToggle.tabIndex = "-1");
 }
