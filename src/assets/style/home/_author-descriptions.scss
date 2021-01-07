@@ -20,6 +20,10 @@
   box-shadow: 2px 2px 6px 4px $text-color;
 }
 
+.author-description__wrap-img {
+  min-height: 275px;
+}
+
 .author-description__link {
   display: flex;
   justify-content: end;
