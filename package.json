@@ -21,6 +21,7 @@
     "sass": "^1.30.0"
   },
   "dependencies": {
+    "parcel-plugin-imagemin": "^4.0.2",
     "postcss-modules": "^3.2.2"
   }
 }
